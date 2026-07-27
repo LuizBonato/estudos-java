@@ -1,7 +1,8 @@
-import java.util.Scanner;
+package Exercicio1;
 
 public class Main {
-    public static void main(String[] args) {ServicoMensagem sms = new SMS();
+    public static void main(String[] args) {
+        ServicoMensagem sms = new SMS();
         ServicoMensagem email = new Email();
         ServicoMensagem redesSociais = new RedesSociais();
         ServicoMensagem whatsapp = new WhatsApp();

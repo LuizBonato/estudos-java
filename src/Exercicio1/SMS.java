@@ -1,3 +1,5 @@
+package Exercicio1;
+
 public class SMS implements ServicoMensagem {
     @Override
     public void enviar(String mensagem) {
